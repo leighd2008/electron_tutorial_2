@@ -4,15 +4,15 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode development",
+    "start": "electron ./dist/main.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leighd2008/electron_tutorial_2.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Diane Leigh",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/leighd2008/electron_tutorial_2/issues"
