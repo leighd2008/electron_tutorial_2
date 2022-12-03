@@ -50,8 +50,8 @@ connection.onDisconnect = () => {
   console.log("lost");
 };
 
-connection.send("greeting", "Mom", (response: any) => {
-  console.log(response);
+connection.send("greeting", "Mom from C#", (response: any) => {
+  window.webContents.send("greeting", response);
   connection.close();
   
 });
