@@ -1,3 +1,4 @@
+const { ConnectionBuilder } = require("electron-cgi");
 const url = require("url");
 const path = require("path");
 
@@ -19,6 +20,9 @@ const createWindow = () => {
     })
   );
   
+  // Open the DevTools.
+  window.webContents.openDevTools()
+  
   window.on("closed", () => {
     window = null;
   });
@@ -36,4 +40,18 @@ app.on("activate", () => {
   if (window === null) {
     createWindow();
   }
+});
+
+let connection = new ConnectionBuilder()
+  .connectTo("dotnet", "run", "--project", "NetCoreProject")
+  .build();
+
+connection.onDisconnect = () => {
+  console.log("lost");
+};
+
+connection.send("greeting", "Mom", (greeting: any) => {
+  console.log(greeting);
+  // connection.close();
+  
 });
