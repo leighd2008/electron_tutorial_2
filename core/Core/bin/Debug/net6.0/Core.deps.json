@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "electron_tutorial_2/1.0.0": {
+      "Core/1.0.0": {
         "dependencies": {
           "ElectronCgi.DotNet": "1.0.3"
         },
         "runtime": {
-          "electron_tutorial_2.dll": {}
+          "Core.dll": {}
         }
       },
       "ElectronCgi.DotNet/1.0.3": {
@@ -529,7 +529,7 @@
     }
   },
   "libraries": {
-    "electron_tutorial_2/1.0.0": {
+    "Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

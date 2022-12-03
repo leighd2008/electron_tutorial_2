@@ -3006,11 +3006,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/leighd2008/electron_tutorial_2/electron_tutorial_2.csproj",
-      "projectName": "electron_tutorial_2",
-      "projectPath": "/home/leighd2008/electron_tutorial_2/electron_tutorial_2.csproj",
+      "projectUniqueName": "/home/leighd2008/electron_tutorial_2/core/Core/Core.csproj",
+      "projectName": "Core",
+      "projectPath": "/home/leighd2008/electron_tutorial_2/core/Core/Core.csproj",
       "packagesPath": "/home/leighd2008/.nuget/packages/",
-      "outputPath": "/home/leighd2008/electron_tutorial_2/obj/",
+      "outputPath": "/home/leighd2008/electron_tutorial_2/core/Core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/leighd2008/.nuget/NuGet/NuGet.Config"

@@ -43,11 +43,11 @@ app.on("activate", () => {
 });
 
 let connection = new ConnectionBuilder()
-  .connectTo('dotnet', 'run', '--project', './core/Core')
+  .connectTo("dotnet", "run", "--project", "./core/Core")
   .build();
 
 connection.onDisconnect = () => {
-  console.log('Lost connection to the .Net process');
+  console.log("lost");
 };
 
 connection.send("greeting", "Mom", (response: any) => {

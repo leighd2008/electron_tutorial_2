@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "axV1NML760oX0PneNtfEh4GqxTASEzRAH5cqEPkfE6KwDbC2v4SKrtaK44R9RCEKsmVww4cIKJ2wP8kjI1pa2A==",
+  "dgSpecHash": "g+gdVOrp18Sn0zDg6fuP7LhrOwAZTT4wmFDyM0I6ZPyuvUY0FjTr3Bi02ef/2YIX36zvNMN7FqpUqKZSH+EB5g==",
   "success": true,
-  "projectFilePath": "/home/leighd2008/electron_tutorial_2/electron_tutorial_2.csproj",
+  "projectFilePath": "/home/leighd2008/electron_tutorial_2/core/Core/Core.csproj",
   "expectedPackageFiles": [
     "/home/leighd2008/.nuget/packages/electroncgi.dotnet/1.0.3/electroncgi.dotnet.1.0.3.nupkg.sha512",
     "/home/leighd2008/.nuget/packages/microsoft.aspnetcore.hosting.abstractions/2.0.0/microsoft.aspnetcore.hosting.abstractions.2.0.0.nupkg.sha512",
